@@ -1,0 +1,13 @@
+2023-01-12 18:58:34,138 Start data preparation
+2023-01-12 19:01:11,906 Prepared train data
+2023-01-12 19:01:39,931 Prepared test data
+2023-01-12 19:01:39,931 Data preparation of 240000 documents took: 185.79260444641113 seconds
+2023-01-12 19:01:39,931 Start training vectoriser model
+2023-01-12 19:01:39,931 Load pretrained SentenceTransformer: ./src/models/all-MiniLM-L6-v2/
+2023-01-12 19:01:40,324 Use pytorch device: cuda
+2023-01-12 19:04:37,928 Vectoriser training took: 177.99710297584534 seconds
+2023-01-12 19:04:37,928 Start training classifier model
+2023-01-12 19:27:00,687 Train accuracy: 0.9767446511697675
+2023-01-12 19:27:00,696 Classifier training took: 1342.7677817344666 seconds
+2023-01-12 19:27:00,696 Test accuracy: 0.8382669133456673
+2023-01-12 19:27:02,609 Classifier model saved successfully
